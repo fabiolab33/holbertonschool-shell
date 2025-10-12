@@ -26,4 +26,8 @@ command: chmod u+x
 Command for create the file execute.
 
 6-multiple_permissions
+command: chmod u+x, g+x, o+r
+Firts one, execute the file gives permission to the owner. Second one,execute the file and gives group owner permission. Thrid gives read permission fot other users.
+
+7-everybody
 command:

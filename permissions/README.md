@@ -22,4 +22,8 @@ command: touch
 This one creates a empty file.
 
 5-execute
+command: chmod u+x
+Command for create the file execute.
+
+6-multiple_permissions
 command:

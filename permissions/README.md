@@ -59,4 +59,8 @@ command: mkdir -m 751 my_dir
 I creates a directory with the permissions 751
 
 13-changes_group
+command: chgrp
+With this command I can change the group owner 'school' to the file 'hello'.
+
+14-change_owner_and_group
 command:

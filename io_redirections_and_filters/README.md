@@ -13,4 +13,12 @@ command: cat /etc/passwd
 This show all the text of that file.
 
 3-twofiles
-command:
+command: cat etc/passwd /etc/hosts
+This show all the text of this two files.
+
+4-lastlines
+command: tail /etc/passwd
+Shows 10 lines of that files.
+
+5-firstlines
+command: 

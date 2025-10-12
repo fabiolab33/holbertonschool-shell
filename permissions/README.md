@@ -34,4 +34,10 @@ command: chmod a+x
 Is for specifies the permissions change.
 
 8-James_Bond
-command: 
+command: chmod 007 hello
+0= owner with no permissions
+0= group no permissions
+7= other all the permissions
+
+9-John_Doe
+command:

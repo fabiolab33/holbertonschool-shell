@@ -18,7 +18,12 @@ This show all the text of this two files.
 
 4-lastlines
 command: tail /etc/passwd
-Shows 10 lines of that files.
+Shows 10 firt lines of that files.
 
 5-firstlines
-command: 
+command:
+Shows 10 last lines of the file.
+
+6-third_line
+command: head -n 3 iacta | tail -n 1
+This command show the third line of the file.

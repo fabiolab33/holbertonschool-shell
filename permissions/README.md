@@ -67,4 +67,8 @@ command: chown vincent:staff *
 This change owner to vincent and group to staff.
 
 15-symbolic_link_permissions
-command: 
+command: chown -h vincent:staff _hello
+Changes the owner and the group owner of x files (in this case owner vincent, group owner staff and the file _hello).
+
+16-if_only
+command:

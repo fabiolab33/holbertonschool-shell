@@ -1,0 +1,17 @@
+total 52
+drwxr-xr-x 1 fabiola fabiola 316 Oct 12 19:50 .
+drwxr-xr-x 1 fabiola fabiola 114 Oct 12 15:46 ..
+-rwxr--r-- 1 fabiola fabiola  32 Oct 12 17:14 0-hello_world
+-rwxr--r-- 1 fabiola fabiola  30 Oct 12 17:20 1-confused_smiley
+-rwxr--r-- 1 fabiola fabiola  28 Oct 12 17:34 2-hellofile
+-rwxr--r-- 1 fabiola fabiola  39 Oct 12 17:42 3-twofiles
+-rwxr--r-- 1 fabiola fabiola  29 Oct 12 17:54 4-lastlines
+-rwxr--r-- 1 fabiola fabiola  29 Oct 12 19:19 5-firstlines
+-rw-r--r-- 1 fabiola fabiola  12 Oct 12 19:16 5-firstlines~
+-rwxr--r-- 1 fabiola fabiola  40 Oct 12 19:27 6-third_line
+-rwxr--r-- 1 fabiola fabiola  81 Oct 12 19:47 7-file
+-rwxr--r-- 1 fabiola fabiola  86 Oct 12 19:41 7-file~
+-rwxr--r-- 1 fabiola fabiola  36 Oct 12 19:50 8-cwd_state
+-rwxr--r-- 1 fabiola fabiola  11 Oct 12 19:49 8-cwd_state~
+-rw-r--r-- 1 fabiola fabiola   0 Oct 12 19:51 ls_cwd_content
+-rw-r--r-- 1 fabiola fabiola 682 Oct 12 19:32 README.md

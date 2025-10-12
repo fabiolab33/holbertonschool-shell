@@ -51,4 +51,12 @@ command: chmod --reference=olleh helo
 This copys exactly all permission of the file.
 
 11-directories_permissions
+command:find . -type d -exec chmod a+x {} +
+This full command is for gives permissions to all subdirectories of the actual owner, the groups owner and all other users.
+
+12-directory_permissions
+command: mkdir -m 751 my_dir
+I creates a directory with the permissions 751
+
+13-changes_group
 command:

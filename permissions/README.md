@@ -30,4 +30,8 @@ command: chmod u+x, g+x, o+r
 Firts one, execute the file gives permission to the owner. Second one,execute the file and gives group owner permission. Thrid gives read permission fot other users.
 
 7-everybody
-command:
+command: chmod a+x
+Is for specifies the permissions change.
+
+8-James_Bond
+command: 

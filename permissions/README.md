@@ -71,4 +71,5 @@ command: chown -h vincent:staff _hello
 Changes the owner and the group owner of x files (in this case owner vincent, group owner staff and the file _hello).
 
 16-if_only
-command:
+command: find . -maxdepth 1 -user guillaume -name hello -exec chown vincent {} \+
+Changes owner (hello) to vincent, looking fot the user guillaume.

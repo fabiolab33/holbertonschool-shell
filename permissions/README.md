@@ -40,4 +40,15 @@ command: chmod 007 hello
 7= other all the permissions
 
 9-John_Doe
+command: chmod 753 hello
+They divide into groups of three.
+rwx=7
+r-x=5
+-wx=3
+
+10-mirror_permissions
+command: chmod --reference=olleh helo
+This copys exactly all permission of the file.
+
+11-directories_permissions
 command:

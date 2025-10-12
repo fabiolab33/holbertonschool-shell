@@ -63,4 +63,8 @@ command: chgrp
 With this command I can change the group owner 'school' to the file 'hello'.
 
 14-change_owner_and_group
-command:
+command: chown vincent:staff *
+This change owner to vincent and group to staff.
+
+15-symbolic_link_permissions
+command: 

@@ -9,4 +9,8 @@ command: echo '"(Ôo)'\'''
 Thats displays a confused smiley.
 
 2-hellofile
+command: cat /etc/passwd
+This show all the text of that file.
+
+3-twofiles
 command:

@@ -72,4 +72,8 @@ command: grep -v "bin" /etc/passwd
 Show the lines that do not have the pattern "bin"
 
 18-letteronly
+command: grep "^[a-zA-Z]" /etc/ssh/sshd_config
+This show the files lines.
+
+19-AZ
 command:

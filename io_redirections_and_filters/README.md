@@ -64,4 +64,8 @@ command: grep "bin" /etc/passwd | wc -l
 Show pattern that conatin "bin" in the file.
 
 16-whatsnext
+command: grep -A 3 "root" /etc/passwd
+Show pattern "root" and the 3 lines after them.
+
+17-hidethisword
 command:

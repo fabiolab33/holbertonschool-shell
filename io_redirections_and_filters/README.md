@@ -68,4 +68,8 @@ command: grep -A 3 "root" /etc/passwd
 Show pattern "root" and the 3 lines after them.
 
 17-hidethisword
+command: grep -v "bin" /etc/passwd
+Show the lines that do not have the pattern "bin"
+
+18-letteronly
 command:

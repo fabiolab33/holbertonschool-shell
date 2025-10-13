@@ -57,7 +57,11 @@ Print files.
 
 14-findthatword
 command: grep "root" /etc/passwd
-Show patters thats contain "bin" on the file.
+Show patters thats contain "root" in  the file.
 
 15-countthatword
+command: grep "bin" /etc/passwd | wc -l
+Show pattern that conatin "bin" in the file.
+
+16-whatsnext
 command:

@@ -13,4 +13,7 @@ command: export PATH="$PATH:/action"
 This command adds /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
 3-paths
-command:
+command: echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
+
+4-global_variables
+command: 

@@ -76,4 +76,8 @@ command: grep "^[a-zA-Z]" /etc/ssh/sshd_config
 This show the files lines.
 
 19-AZ
+command: tr 'Ac' 'Ze'
+Replace all characters A and c from input to Z and e respectively.
+
+20-hiago
 command:

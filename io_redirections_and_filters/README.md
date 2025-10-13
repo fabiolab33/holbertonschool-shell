@@ -48,4 +48,8 @@ command: find . -type d ! -name '.' ! -name '..' | wc -l
 Counts the numbers of the directories and subdirectories.
 
 12-newest_filters
-command: ls -tp | grep -v / | head -n 10
+command: ls -t | head -n 10
+Order one file per line and sorted from the newest to the oldest.
+
+13-unique
+command: sort | uniq -u | sort

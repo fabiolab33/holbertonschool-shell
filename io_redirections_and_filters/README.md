@@ -30,3 +30,10 @@ This command show the third line of the file.
 
 7-file
 command:
+
+8-cwd_state
+command: ls -la > ls_cwd_content
+Overwritte the file 'ls_cwd_content"
+
+9-duplicate_last_line
+command:

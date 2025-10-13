@@ -29,11 +29,15 @@ command: head -n 3 iacta | tail -n 1
 This command show the third line of the file.
 
 7-file
-command:
-
+command:echo "Best School" > '\\\*\\\'"Best School"\'\\\\*\$\?\*\*\*\*\*\:)'
+This show the text 'Best School"
 8-cwd_state
 command: ls -la > ls_cwd_content
 Overwritte the file 'ls_cwd_content"
 
 9-duplicate_last_line
-command:
+command: tail -n 1 iacta >> iacta
+This command dublicates the last line of the file.
+
+10-no_more_js
+command: 

@@ -52,4 +52,8 @@ command: ls -t | head -n 10
 Order one file per line and sorted from the newest to the oldest.
 
 13-unique
-command: sort | uniq -u | sort
+command: sort | uniq -u
+Print files.
+
+14-findthatword
+command:

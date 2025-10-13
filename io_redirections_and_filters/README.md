@@ -40,4 +40,8 @@ command: tail -n 1 iacta >> iacta
 This command dublicates the last line of the file.
 
 10-no_more_js
-command: 
+command: find . -type f -name "*.js" -delete
+Deletes the files with '.js' extebsion.
+
+11-directories
+command:

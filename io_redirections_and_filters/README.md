@@ -86,3 +86,7 @@ This command removes all letters c and C from input.
 21-reverse
 command: rev
 Reverse its input.
+
+22-users_and_homes
+command: awk -F: '{print $1 ":" $6}' /etc/passwd | sort
+Show all users and their home directories, sorted by users.

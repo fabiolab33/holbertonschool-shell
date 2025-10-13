@@ -56,4 +56,8 @@ command: sort | uniq -u
 Print files.
 
 14-findthatword
+command: grep "root" /etc/passwd
+Show patters thats contain "bin" on the file.
+
+15-countthatword
 command:

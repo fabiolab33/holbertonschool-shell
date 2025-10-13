@@ -16,4 +16,8 @@ This command adds /action to the PATH. /action should be the last directory the 
 command: echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
 
 4-global_variables
-command: 
+command: printenv
+This lists environment variables.
+
+5-local_variables
+command:
